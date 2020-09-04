@@ -62,6 +62,7 @@ export const Select: FC<Props> = ({
             </optgroup>
           )
         })}
+        <optgroup>{/* Support for not omitting labels in Mobile Safari */}</optgroup>
       </SelectBox>
       <IconWrap>
         <Icon size={13} name="fa-sort" />
